@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 22px;
+  }
+  
+  body {
+    min-height: 100vh;
+    font-family: 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100%; 
+    max-width: 500px;
+    border: 1px solid mediumblue;
+    margin: auto;
+  }
+  
+  header h1 {
+    width: 100%;
+    padding: 0 0.25em;
+    background-color: mediumblue;
+    color: aliceblue;
+    text-align:start ;
+  }
+
+  header nav {
+    width: 100%;
+    padding: 0 0.25em;
+    background-color: mediumblue;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px 10px 10px;
+    gap: 10px;
+
+  }
+  
+nav ol:hover {
+    color: rgb(220, 226, 226);
+    cursor: pointer;
+  }
+
+  main {
+    width: 100%;
+    margin-top: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto;
+    text-align: center;
+  }
+  
+  footer {
+    width: 100%;
+    padding: 0.25em;
+    margin-top: 5%;
+    background-color: mediumblue;
+    color: aliceblue;
+    display: grid;
+    place-content: center;
+  }
+  
+  
+  button {
+    height: 48px;
+    min-width: 48px;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: aliceblue;
+    color: mediumblue;
+    cursor: pointer;
+    border: none;
+  }
+  
+  button:focus, 
+  button:hover {
+    color: white;
+    background-color: limegreen;
+    outline: none;
+  }
+
+  .card{
+    border: 1px solid hsla(0, 0%, 80%);
+    box-shadow:5px 5px 5px hsl(0, 0%, 0%,0.1);
+    border-radius: 5px;
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+ 
+  }
+
+  .card img{
+    height: 120px;
+
+  }
+
+  .card p {
+    margin-bottom: 10px;
+  }
+  .card button{
+    padding: 5px;
+     height: 30px;
+     font-size: 17px;
+     border: none;
+     width: 100px;
+  }
+  .card button i{
+    padding: 2px 2px;
+  }
+
+  .card:hover{
+    box-shadow: 0px 0px 12px hsla(0, 0%, 0%, 0.425);
+  }

@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius:10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+  padding: 10px;
+  margin: 0px;
+}
+.card:hover{
+  box-shadow: 0.5px 0.5px 3px hsla(0, 0%, 0%, 0.273);
+}
+.card button{
+  padding: 10px 10px;
+  margin: 10px 10px;
+  background-color: skyblue;
+  border-radius: 5px;
+
+}
+
+#add:hover{
+  background-color: green;
+  color: white;
+}
+#del:hover{
+  background-color: red;
+  color: white;
+}
